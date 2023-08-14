@@ -1,0 +1,10 @@
+CREATE TABLE EmployeeInfo (
+ID int NOT NULL AUTO_INCREMENT PRIMARY KEY,
+Emp_name varchar(40) NOT NULL,
+Address varchar(250) not null,
+City varchar(50) not null,
+Age int not null,
+DOJ date not null,
+Designation varchar(50) not null,
+Salary decimal (15,2) not null,
+Mobile varchar (10) not null);
